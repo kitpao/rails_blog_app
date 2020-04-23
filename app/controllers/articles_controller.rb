@@ -26,8 +26,8 @@ class ArticlesController < ApplicationController
   def update
     @article = Article.find(params[:id])
     @article.update(article_params)
-    
-    flash[:success] = "Article '#{@article.id}' Updated"
+
+    flash[:eduardo] = "Article '#{@article.id}' Updated"
     redirect_to article_path(@article)
   end
 
