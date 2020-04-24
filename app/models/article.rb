@@ -9,6 +9,9 @@ class Article < ApplicationRecord
     #   end.join(", ")
     # end
 
+    def tag_list=(tags_string)
+    end
+
     def tag_list
         tags.join(", ")
     end
