@@ -6,13 +6,10 @@ class Article < ApplicationRecord
     # def tag_list
     #   self.tags.collect do |tag|
     #     tag.name
-    #   end.join(", ")  
+    #   end.join(", ")
     # end
-    def to_s
-       name
-    end
 
     def tag_list
-        tags.join(", ").to_s
+        tags.join(", ")
     end
 end
