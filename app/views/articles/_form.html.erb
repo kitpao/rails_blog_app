@@ -21,6 +21,9 @@
   </p>
 
   <p>
+    <% if @article.image.exists? %>
+      <%= image_tag @article.image.url(:thumb) %><br>
+    <% end %>
     <%= f.label :image, "Attach an Image" %><br>
     <%= f.file_field :image %>
   </p>
