@@ -1,9 +1,8 @@
 class CommentsController < ApplicationController
-
   def create
     @comment = Comment.new(comment_params)
     @comment.article_id = params[:article_id]
-    
+
     @comment.save
     flash[:eduardo] = "Your comment was created '#{@comment.id}'"
     redirect_to article_path(@comment.article)
