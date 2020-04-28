@@ -1,0 +1,7 @@
+Welcome to this site, our first serious rails app!
+This was done by:
+kitpao - https://github.com/kitpao
+Edcrux - https://github.com/EdCrux
+
+You can find the complete repository here:
+https://github.com/kitpao/rails_blog_app/
