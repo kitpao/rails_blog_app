@@ -4,12 +4,30 @@
     <title>BlogApp</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <%= stylesheet_link_tag "http://tutorials.jumpstartlab.com/assets/blogger/screen.css" %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
   </head>
 
   <body>
-    <%= yield %>
-  </body>
+  <p class="flash">
+    <%= flash[:eduardo] %>
+  </p>
+  <div id="container">
+    <div id="content">
+      <%= yield %>
+      <hr>
+      <h6>
+        <% if logged_in? %>
+          <%= "Logged in as #{current_user.email}" %>
+          <%= link_to '(logout)', logout_path %>
+        <% else %>
+          <%= link_to '(login)', login_path %>
+        <% end %>
+      </h6>
+    </div>
+  </div>
+</body>
+
 </html>
