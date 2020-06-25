@@ -30,25 +30,56 @@ Rubocop lint
 
 `rubocop .`
 
-## AuthorsEdCrux
-
-👤 **Kitzia Vidal**
-
-- Github: [kitpao](https://github.com/kitpao)
-- Twitter: [@kitpao1](https://twitter.com/)
-- Linkedin: [linkedin](https://www.linkedin.com/in/kitzia-paola-vidal/)
-
-👤 **Eduardo Cruz**
-
-- Github: [EdCrux](https://github.com/EdCrux)
-- Twitter: [@Eduardo79973490](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](www.linkedin.com/in/edcrux)
-
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](issues/).
+
+## Contact
+<p align="center">
+
+  Project Link: [https://github.com/EdCrux/Members-only](https://github.com/kitpao/Bare-Metal-Forms-and-Helpers-re-former)
+
+<p align="center">
+
+  👤 Kitzia Paola Vidal Marroquin - [Github user: kitpao](https://github.com/kitpao)
+</p>
+<p align="center" style="display: flex; justify-content: center; align-items: center;">
+    <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=kitpao91@gmail.com">
+      kitpao91@gmail.com
+    </a> &nbsp; |
+    <a target="_blank" href="https://github.com/kitpao/Personal_Projects">
+        Portfolio
+    </a> &nbsp; |
+    <a target="_blank" href="https://www.linkedin.com/in/kitzia-paola-vidal/">
+      LinkedIn
+    </a> &nbsp; |
+    <a target="_blank" href="https://twitter.com/Kitpao1">
+      Twitter
+    </a>
+</p>
+
+<p align="center">
+
+  👤 Jesus Eduardo Cruz Valdez - [EdCrux](https://github.com/EdCrux
+)
+</p>
+<p align="center" style="display: flex; justify-content: center; align-items: center;">
+    <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jecruxiz@gmail.com
+">
+      jecruxiz@gmail.com
+    </a> &nbsp; |
+    <a target="_blank" href="https://github.com/EdCrux?tab=repositories">
+        My Repositories
+    </a> &nbsp; |
+    <a target="_blank" href="www.linkedin.com/in/edcrux">
+      LinkedIn
+    </a> &nbsp; |
+    <a target="_blank" href="https://twitter.com/edcrux8">
+      Twitter
+    </a>
+</p>
 
 ## Show your support
 
@@ -57,3 +88,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
+
