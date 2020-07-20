@@ -1,4 +1,4 @@
-<%= form_with(model: author, local: true) do |form| %>
+<%= form_with(model: author, local: true) do |f| %>
 <!--
   <1% if author.errors.any? %>
     <div id="error_explanation">
@@ -13,26 +13,26 @@
   <1% end %>-->
 
   <div class="field">
-    <%= form.label :username %>
-    <%= form.text_field :username %>
+    <%= f.label :username %>
+    <%= f.text_field :username %>
   </div>
 
   <div class="field">
-    <%= form.label :email %>
-    <%= form.text_field :email %>
+    <%= f.label :email %>
+    <%= f.text_field :email %>
   </div>
 
   <div class="field">
-    <%= form.label :password %>
-    <%= form.text_field :password %>
+    <%= f.label :password %>
+    <%= f.password_field :password %>
   </div>
 
   <div class="field">
-    <%= form.label :password_confirmation %>
-    <%= form.text_field :password_confirmation %>
+    <%= f.label :password_confirmation %>
+    <%= f.password_field :password_confirmation %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= f.submit %>
   </div>
 <% end %>
