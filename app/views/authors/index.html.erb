@@ -12,6 +12,7 @@
   </thead>
 
   <tbody>
+    <% if @authors %>
     <% @authors.each do |author| %>
       <tr>
         <td><%= author.username %></td>
@@ -20,6 +21,7 @@
         <td><%= link_to 'Edit', edit_author_path(author) %></td>
         <td><%= link_to 'Destroy', author, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
+    <% end %>
     <% end %>
   </tbody>
 </table>
