@@ -7,6 +7,9 @@ class AuthorSessionsController < ApplicationController
   #   end
   # end
   ## VERIFY WHATS WRONG UP HERE, this is supposed to go in authors_controller
+  def new
+  end
+
   def create
     if login(params[:email], params[:password])
       redirect_back_or_to(articles_path, notice: 'Logged in successfully')
