@@ -7,6 +7,7 @@ class AuthorSessionsController < ApplicationController
   #   end
   # end
   ## VERIFY WHATS WRONG UP HERE, this is supposed to go in authors_controller
+  ## SOLVED: before_filter is deprecated, now it's before_action
   def new
   end
 
