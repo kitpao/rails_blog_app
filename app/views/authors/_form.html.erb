@@ -1,16 +1,16 @@
 <%= form_with(model: author, local: true) do |f| %>
-<!--
-  <1% if author.errors.any? %>
+
+  <% if author.errors.any? %>
     <div id="error_explanation">
-      <h2><1%= pluralize(author.errors.count, "error") %> prohibited this author from being saved:</h2>
+      <h2><%= pluralize(author.errors.count, "error") %> prohibited this author from being saved:</h2>
 
       <ul>
-        <1% author.errors.full_messages.each do |message| %>
-          <li><1%= message %></li>
-        <1% end %>
+        <% author.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
       </ul>
     </div>
-  <1% end %>-->
+  <% end %>
 
   <div class="field">
     <%= f.label :username %>
