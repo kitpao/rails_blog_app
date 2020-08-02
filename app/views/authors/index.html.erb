@@ -7,23 +7,21 @@
     <tr>
       <th>Username</th>
       <th>Email</th>
-      <th>Password</th>
-      <th>Password confirmation</th>
       <th colspan="3"></th>
     </tr>
   </thead>
 
   <tbody>
+    <% if @authors %>
     <% @authors.each do |author| %>
       <tr>
         <td><%= author.username %></td>
         <td><%= author.email %></td>
-        <td><%= author.password %></td>
-        <td><%= author.password_confirmation %></td>
         <td><%= link_to 'Show', author %></td>
         <td><%= link_to 'Edit', edit_author_path(author) %></td>
         <td><%= link_to 'Destroy', author, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
+    <% end %>
     <% end %>
   </tbody>
 </table>

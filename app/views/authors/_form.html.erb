@@ -1,38 +1,38 @@
-<%= form_with(model: author, local: true) do |form| %>
-<!--
-  <1% if author.errors.any? %>
+<%= form_with(model: author, local: true) do |f| %>
+
+  <% if author.errors.any? %>
     <div id="error_explanation">
-      <h2><1%= pluralize(author.errors.count, "error") %> prohibited this author from being saved:</h2>
+      <h2><%= pluralize(author.errors.count, "error") %> prohibited this author from being saved:</h2>
 
       <ul>
-        <1% author.errors.full_messages.each do |message| %>
-          <li><1%= message %></li>
-        <1% end %>
+        <% author.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
       </ul>
     </div>
-  <1% end %>-->
+  <% end %>
 
   <div class="field">
-    <%= form.label :username %>
-    <%= form.text_field :username %>
+    <%= f.label :username %>
+    <%= f.text_field :username %>
   </div>
 
   <div class="field">
-    <%= form.label :email %>
-    <%= form.text_field :email %>
+    <%= f.label :email %>
+    <%= f.text_field :email %>
   </div>
 
   <div class="field">
-    <%= form.label :password %>
-    <%= form.text_field :password %>
+    <%= f.label :password %>
+    <%= f.password_field :password %>
   </div>
 
   <div class="field">
-    <%= form.label :password_confirmation %>
-    <%= form.text_field :password_confirmation %>
+    <%= f.label :password_confirmation %>
+    <%= f.password_field :password_confirmation %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= f.submit %>
   </div>
 <% end %>
